@@ -23,7 +23,7 @@ public class BaseSteps {
 
     @Given("^the user is on home page$")
     public void theUserIsOnHomePage() throws Throwable {
-        driver.get("http://www.zoopla.co/uk");
+        driver.get("https://www.zoopla.co.uk");
         driver.manage().window().maximize();
     }
 

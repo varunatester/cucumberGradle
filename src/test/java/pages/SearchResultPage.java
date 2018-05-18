@@ -6,8 +6,7 @@ import org.openqa.selenium.WebElement;
 
 import java.util.List;
 
-import static org.testng.AssertJUnit.assertEquals;
-
+import static org.junit.Assert.assertEquals;
 
 public class SearchResultPage {
 
